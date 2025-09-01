@@ -1,15 +1,15 @@
 
-## Aim:
+## Aim
 
 To recover lost or deleted partitions/files using the TestDisk forensic tool.
 
-## Tools Used:
+## Tools Used
 
 •	TestDisk
 
 •	Windows/Linux Operating System
 
-## Procedure:
+## Procedure
 1.	Launch TestDisk from the command line.
 2.	Select the storage device to be analysed.
 3.	Choose Analyse to scan for lost or deleted partitions.
