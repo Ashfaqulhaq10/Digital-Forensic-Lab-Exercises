@@ -32,7 +32,7 @@ Download:
 
 ### Experiment 7: AFLogical OSE
 Logical extraction tool for Android devices to acquire contacts, SMS, MMS, and call logs.  
-Download:
+Download:[AFLogical Kit](https://github.com/nowsecure/android-forensics)
 
 ### Experiment 8: StegExpose
 Java-based steganography detection tool for identifying hidden data in images.  
