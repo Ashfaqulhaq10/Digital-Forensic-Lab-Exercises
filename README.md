@@ -2,26 +2,44 @@
 
 This repository presents the Digital Forensics Laboratory exercises, with each activity focusing on the use of various forensic tools and techniques for acquiring, analyzing, and recovering digital evidence.
 
+---
 
+## 🛠️ Tools & Resources
 
-Here are the tools and resources required for performing the experiments:
+### Experiment 1: FTK Imager
+Tool for acquiring forensic images of storage devices.  
+Download: [FTK Imager 4.7.3](https://www.exterro.com/ftk-product-downloads/ftk-imager-4-7-3-81)
 
-Experiment1:
+### Experiment 2: TestDisk
+Tool for data recovery and partition repair.  
+Download: [TestDisk](https://www.cgsecurity.org/wiki/Download_TestDisk)
 
-https://www.exterro.com/ftk-product-downloads/ftk-imager-4-7-3-81
+### Experiment 3: Wireshark
+Network protocol analyzer for capturing and inspecting network traffic.  
+Download: [Wireshark](https://www.wireshark.org/download.html)
 
-Experiment2:
+### Experiment 4: Email Header Analysis
+Tool to analyze email headers for tracking and verification.  
+Website: [MX Toolbox Email Headers](https://mxtoolbox.com/EmailHeaders.aspx)
 
-https://www.cgsecurity.org/wiki/Download_TestDisk
+### Experiment 5: Autopsy
+Digital forensics platform for investigating disk images and recovering files.  
+Download: [Autopsy](https://www.autopsy.com/download/)
 
-Experiment3:
+### Experiment 6: Sleuth Kit
+Command-line tools for forensic analysis of file systems and recovering deleted files.  
+Download: [Sleuth Kit](https://www.sleuthkit.org/sleuthkit/download.php)
 
-https://www.wireshark.org/download.html
+### Experiment 7: AFLogical OSE
+Logical extraction tool for Android devices to acquire contacts, SMS, MMS, and call logs.  
+Repository & Documentation: [AFLogical OSE GitHub](https://github.com/viaforensics/aflogical-ose)
 
-Experiment4:
+### Experiment 8: StegExpose
+Java-based steganography detection tool for identifying hidden data in images.  
+Repository: [StegExpose GitHub](https://github.com/b3dk7/StegExpose)
 
-https://mxtoolbox.com/EmailHeaders.aspx
+### Experiment 9: Process Explorer
+Windows utility for monitoring running processes and identifying suspicious activity.  
+Download: [Process Explorer Sysinternals](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer)
 
-Experiment5:
-
-https://www.autopsy.com/download/
+---
