@@ -1,10 +1,10 @@
 
-### 🎯 Aim
+## 🎯 Aim
 To extract logical user data such as **contacts, SMS, MMS, and call logs** from an Android phone using **AFLogical OSE** and **Android Debug Bridge (ADB)**.
 
 ---
 
-### 🧰 Tools & Requirements
+## 🧰 Tools & Requirements
 | Tool/Item | Description |
 |------------|--------------|
 | **AFLogical OSE** | Open-source Android forensics tool for logical extraction |
@@ -15,14 +15,14 @@ To extract logical user data such as **contacts, SMS, MMS, and call logs** from 
 
 ---
 
-### ⚙️ Procedure
+## ⚙️ Procedure
 
-#### Step 1: Setup Environment
+### Step 1: Setup Environment
 1. Install **Java** and **ADB** on the system.  
 2. Download the **AFLogical OSE APK** file from its GitHub page.  
 3. Enable **Developer Options → USB Debugging** on the Android device.
 
-#### Step 2: Connect Android Device
+### Step 2: Connect Android Device
 1. Connect the phone via USB cable.  
 2. Verify the connection:
 ```bash
@@ -30,13 +30,13 @@ adb devices
 ```
 3. Grant permission if prompted on the device.
 
-#### Step 3: Install AFLogical OSE
+### Step 3: Install AFLogical OSE
 Install the APK file on the Android phone:
 ```bash
 adb install aflogical_ose.apk
 ```
 
-#### Step 4: Run AFLogical
+### Step 4: Run AFLogical
 1. Open **AFLogical OSE** on the device.  
 2. Choose data categories (Contacts, SMS, MMS, Call Logs).  
 3. Tap **Extract Data**.  
@@ -45,17 +45,17 @@ adb install aflogical_ose.apk
 /sdcard/aflogical/
 ```
 
-#### Step 5: Transfer Extracted Data
+### Step 5: Transfer Extracted Data
 Copy data to the computer:
 ```bash
 adb pull /sdcard/aflogical/ ./ForensicsOutput
 ```
 
-#### Step 6: Analyze Extracted Data
+### Step 6: Analyze Extracted Data
 - Open `.csv` files in Excel or Google Sheets.  
 - Review and document important findings (timestamps, numbers, message text, etc.).
 
-#### Step 7: Clean Up
+### Step 7: Clean Up
 Uninstall the app after completion:
 ```bash
 adb uninstall com.viaforensics.android.aflogical
@@ -63,7 +63,7 @@ adb uninstall com.viaforensics.android.aflogical
 
 ---
 
-### 🔍 Observations
+## 🔍 Observations
 | File | Contents |
 |------|-----------|
 | contacts.csv | Contact list with names and numbers |
@@ -73,13 +73,13 @@ adb uninstall com.viaforensics.android.aflogical
 
 ---
 
-### 📈 Result
+## 📈 Result
 Logical extraction was successfully performed using **AFLogical OSE**.  
 Extracted data was saved in `.csv` format and verified using spreadsheet software.
 
 ---
 
-### 📚 Conclusion
+## 📚 Conclusion
 This experiment demonstrates that **AFLogical OSE** provides an efficient and non-invasive method to extract important user data from Android devices, useful for forensic investigations and data recovery.
 
 ---
