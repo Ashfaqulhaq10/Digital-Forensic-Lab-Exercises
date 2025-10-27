@@ -43,6 +43,9 @@ Windows utility for monitoring running processes and identifying suspicious acti
 Download: [Process Explorer](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer)
 
 ### Experiment 10: Ghidra
+
+To Use Ghidra to Disassemble and Analyze the Malware Code
+
 Download:[Ghidra](https://github.com/NationalSecurityAgency/ghidra)
 
 ---
