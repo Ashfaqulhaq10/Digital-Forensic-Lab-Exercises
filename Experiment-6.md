@@ -1,6 +1,3 @@
-# Use Sleuth Kit to Analyze Digital Evidence
-
----
 
 ## Aim
 To understand and demonstrate the usage of Sleuth Kit in analyzing digital evidence for forensic investigation purposes.
