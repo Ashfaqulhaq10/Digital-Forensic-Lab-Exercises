@@ -79,6 +79,8 @@ To generate a reliable forensic image of a storage device (such as a USB drive o
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/2780f7cc-5c4a-4d42-a831-ada17ce3ef76" />
 </p>
 
+
+
 ---
 
 
