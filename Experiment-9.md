@@ -1,89 +1,101 @@
-### 🎯 Aim
-To monitor and analyze running processes on a Windows system to detect potentially malicious or suspicious activity using **Process Explorer**.
+## **Aim**
+To use Microsoft Sysinternals **Process Explorer** to monitor system activities and identify any **suspicious or malicious processes** running on a Windows computer.
 
 ---
 
-### 🧰 Tools & Requirements
-| Tool / Resource | Purpose |
-|-----------------|---------|
-| **Process Explorer** | Advanced Windows utility for process monitoring |
-| **Windows OS** | Required platform to run the tool |
-| **Administrator Privileges** | Needed to access all system processes |
-| **Internet Connection** | For verifying suspicious process reputations |
+## **Requirements**
+- Windows operating system  
+- Internet connection  
+- **Process Explorer** (from Microsoft Sysinternals)  
+- Optional: Antivirus software (e.g., Windows Defender, Malwarebytes)
 
 ---
 
-### ⚙️ Procedure
-
-#### Step 1: Download and Launch
-1. Go to the [Microsoft Sysinternals Process Explorer page](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer).  
-2. Download the ZIP archive.  
-3. Extract the folder to a working directory.  
-4. Run `procexp64.exe` or `procexp.exe` **as Administrator**.
-<p align="center">
-<img width="1223" height="753" alt="Screenshot 2025-10-28 000259" src="https://github.com/user-attachments/assets/578a5fee-a6d7-4ca3-bf51-757d7f86d1b3" />
-</p>
-
-#### Step 2: Explore the Interface
-- The process tree shows all active processes.  
-- Color coding for quick status recognition:
-
-| Color | Meaning |
-|-------|---------|
-| Pink | Suspended processes |
-| Light Blue | Processes under the same user |
-| Dark Blue | System services or processes running under system accounts |
-| Green | Newly started processes |
-| Red | Recently terminated processes |
-<p align="center">
-<img width="1271" height="770" alt="Screenshot 2025-10-28 000326" src="https://github.com/user-attachments/assets/de02cbd3-e460-4a03-a20c-291bc4a38e4d" />
-</p>
-
-#### Step 3: Investigate Suspicious Processes
-1. **Unknown processes**: Look for unfamiliar names; system processes are usually from trusted vendors like Microsoft.  
-2. **Digital signatures**: Right-click → Properties → Image tab. Unsigned executables can be suspicious.  
-3. **File path**: System files are normally in `C:\Windows\System32`; others may be risky.  
-4. **Resource usage**: High CPU, memory, or disk usage can indicate malware.  
-5. **Process details**: Lack of description or unclear company name may be suspicious.  
-6. **Network activity**: Properties → TCP/IP tab; unexpected connections may indicate malicious behavior.
-
-#### Step 4: Verify Process Reputation
-- Search the process name online.  
-- Check databases like [VirusTotal](https://www.virustotal.com/) or [ProcessLibrary](https://www.processlibrary.com/).
-<p align="center">
-<img width="1191" height="762" alt="Screenshot 2025-10-28 000341" src="https://github.com/user-attachments/assets/923e8d6f-8982-477d-8767-2593b91e79e5" />
-</p>
-
-
-#### Step 5: Take Action
-1. **Kill Process**: Right-click → Kill Process.  
-2. **Suspend Process**: Right-click → Suspend.  
-3. **Delete Executable**: Remove the file if confirmed malicious.
-
-#### Step 6: Scan the System
-- Run a full antivirus scan.  
-- Use tools like Malwarebytes or Windows Defender for thorough cleaning.
-<p align="center">
-<img width="1246" height="732" alt="Screenshot 2025-10-28 000403" src="https://github.com/user-attachments/assets/509129b0-a70d-4f35-98e9-8ddc9e978db9" />
-</p>
+## **Description**
+Process Explorer is a part of the **Microsoft Sysinternals Suite**. It is a powerful tool used to view detailed information about system processes.  
+It helps investigators and administrators analyze active processes, detect suspicious behavior, monitor CPU and memory usage, and verify process authenticity using digital signatures.
 
 ---
 
-### 🔍 Observations
-| Process Name | Action Taken | Notes |
-|--------------|--------------|-------|
-| unknown.exe | Suspended | Running from Temp folder, unsigned |
-| svchost.exe | Monitored | Legitimate system process, high CPU briefly |
-| appdatahelper.exe | Killed | Malicious, confirmed via VirusTotal |
+## **Step-by-Step Procedure**
+
+### **Step 1: Download and Setup Process Explorer**
+1. Go to the official Microsoft Sysinternals website:  
+   🔗 [https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer)
+2. Click **Download Process Explorer**.
+3. Extract the downloaded ZIP file to a folder.
+4. Right-click `procexp64.exe` (for 64-bit) or `procexp.exe` (for 32-bit) → select **Run as Administrator**.
 
 ---
 
-### 📈 Result
-Process Explorer successfully identified suspicious or unusual processes and allowed safe investigation and corrective action.
-
+### **Step 2: Understand the Interface**
+1. The main window displays all running processes in a **hierarchical tree view**.
+2. Each process shows details such as **PID**, **CPU usage**, **memory usage**, and **company name**.
+3. Color codes represent process states:
+   - 🟩 **Green** — Newly started processes  
+   - 🟥 **Red** — Terminated processes  
+   - 🟦 **Light Blue** — Processes running under the current user  
+   - 🟪 **Pink** — Suspended processes
+![9 1](https://github.com/user-attachments/assets/8c314555-99fb-41df-a7fa-31684fb03d52)
 ---
 
-### 📚 Conclusion
-Process Explorer provides detailed monitoring of Windows processes. Combining process inspection with reputation verification helps detect malware and protect system integrity.
+### **Step 3: Identify Suspicious Processes**
+1. Look for **unfamiliar or oddly named processes** (e.g., `xkdjeo.exe`, `randomname123.exe`).
+2. Check the **Company Name** and **Description**:
+   - Legitimate software usually shows known publishers like *Microsoft*, *Intel*, or *Adobe*.
+3. Right-click the process → **Properties** → go to the **Image** tab.
+4. Verify the **Path** of the executable file:
+   - ✅ Safe: `C:\Windows\System32\`
+   - ⚠️ Suspicious: `C:\Users\<User>\AppData\Temp\` or `Downloads\`
+5. Check for **Digital Signature**:
+   - Valid signature = trusted developer  
+   - No signature or invalid = possibly malicious
+![9 10](https://github.com/user-attachments/assets/4f1a4ed2-4a3a-43b0-99bf-1869f4977eed)
+---
+
+### **Step 4: Analyze Process Behavior**
+1. Observe **CPU**, **Memory**, and **I/O usage** columns.
+2. If a small or unknown process consumes **excessive CPU or memory**, it may be malicious.
+3. Right-click the process → **Properties** → go to the **TCP/IP tab**.
+   - Check if it communicates with **unknown external IP addresses**.
+4. Examine **Handles** and **DLLs** tabs for suspicious loaded files or libraries.
+![9 4](https://github.com/user-attachments/assets/917486d8-cac0-4aca-b7c9-0d564e42cefa)
+
+
+### **Step 5: Verify Process Legitimacy**
+1. Search the process name on Google.  
+   Example: `svchost.exe` vs `svhost.exe` (one letter missing — suspicious).
+2. Visit 🔗 [https://www.virustotal.com](https://www.virustotal.com)
+   - Upload the process file or search its name to verify if it’s reported as malware.
+3. Cross-check with **ProcessLibrary.com** or official vendor websites for authenticity.
+![9 6](https://github.com/user-attachments/assets/510b1b85-2bea-43d5-bc15-e861cc676de0)
+---
+
+### **Step 6: Take Appropriate Action**
+1. **If the process is confirmed malicious:**
+   - Right-click the process → **Kill Process** to stop it.
+   - Delete the corresponding executable file from its path.
+2. **If unsure:**
+   - Right-click → **Suspend Process** to stop it temporarily for investigation.
+3. **After removal:**
+   - Run a **Full System Scan** using Windows Defender or Malwarebytes to ensure no remnants remain.
+![9 8](https://github.com/user-attachments/assets/c13dbe52-1c1d-40f9-8f42-59859f9c2a52)
+---
+
+### **Step 7: Example Observation**
+You find `faangpath_simple_template.pdf` consuming 70% CPU.  
+- **Path:** `C:\Users\Admin\AppData\Temp\faangpath_simple_template.pdf`  
+- **Digital Signature:** None  
+- **Company Name:** Unknown  
+- **Network Activity:** Shows connections to unknown IPs in the TCP/IP tab  
+- **Online Check:** VirusTotal confirms it as a **known trojan**  
+- **Action Taken:** Suspended → Killed → Deleted file → Performed full antivirus scan  
+![9 9](https://github.com/user-attachments/assets/e4a905cc-52c6-4036-987d-a4f35dd1277a)
+---
+
+
+## **Result**
+Using Process Explorer, suspicious processes were successfully identified by examining their **CPU usage**, **path**, **digital signature**, and **network activity**.  
+Confirmed malicious processes were terminated and removed to maintain system integrity.
 
 ---
