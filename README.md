@@ -28,7 +28,7 @@ Download: [Autopsy](https://www.autopsy.com/download/)
 
 ### Experiment 6: Sleuth Kit
 Command-line tools for forensic analysis of file systems and recovering deleted files.  
-Download:
+Download:[Sleuth Kit](https://sleuthkit.org/sleuthkit/download.php)
 
 ### Experiment 7: AFLogical OSE
 Logical extraction tool for Android devices to acquire contacts, SMS, MMS, and call logs.  
