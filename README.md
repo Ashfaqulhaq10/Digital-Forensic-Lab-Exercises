@@ -28,18 +28,18 @@ Download: [Autopsy](https://www.autopsy.com/download/)
 
 ### Experiment 6: Sleuth Kit
 Command-line tools for forensic analysis of file systems and recovering deleted files.  
-Download:[Sleuth Kit](https://sleuthkit.org/sleuthkit/download.php)
+Download: [Sleuth Kit](https://sleuthkit.org/sleuthkit/download.php)
 
 ### Experiment 7: AFLogical OSE
 Logical extraction tool for Android devices to acquire contacts, SMS, MMS, and call logs.  
-Download:[AFLogical Kit](https://github.com/nowsecure/android-forensics)
+Download: [AFLogical Kit](https://github.com/nowsecure/android-forensics)
 
 ### Experiment 8: StegExpose
 Java-based steganography detection tool for identifying hidden data in images.  
-Download:[StegExpose](https://github.com/b3dk7/StegExpose)
+Download: [StegExpose](https://github.com/b3dk7/StegExpose)
 
 ### Experiment 9: Process Explorer
 Windows utility for monitoring running processes and identifying suspicious activity.  
-Download:[Process Explorer](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer)
+Download: [Process Explorer](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer)
 
 ---
