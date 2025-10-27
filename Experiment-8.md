@@ -19,18 +19,27 @@ To examine image files for the presence of hidden information using **StegExpose
 1. Download **StegExpose.jar** from its [GitHub repository](https://github.com/b3dk7/StegExpose).  
 2. Make sure **Java** is installed on your system.  
 3. Place both the `.jar` file and the images you want to inspect in the same working folder.
+<p align="center">
+<img width="1035" height="571" alt="8 1" src="https://github.com/user-attachments/assets/8ba81c6d-e729-426b-8625-4648d3b3d1f2" />
+</p>
 
 ---
 
 #### Step 2: Select Target Images
 - Identify the images you suspect may contain hidden data.  
 - StegExpose works with `.png`, `.jpg`, and `.bmp` formats.
+<p align="center">
+<img width="1519" height="689" alt="8 6" src="https://github.com/user-attachments/assets/7b8740c3-7c1b-494d-b969-e4947d6edaba" />
+</p>
 
 ---
 
 #### Step 3: Launch Terminal or Command Prompt
 - Navigate to the folder where `StegExpose.jar` is located.  
 - Open the **Command Prompt** (Windows) or **Terminal** (macOS/Linux).
+<p align="center">
+<img width="1722" height="932" alt="8 8" src="https://github.com/user-attachments/assets/eedf6c60-50b2-4bb9-bf14-c572ce957e27" />
+</p>
 
 ---
 
@@ -43,6 +52,9 @@ java -jar StegExpose.jar <image_file_path>
 ```bash
 java -jar StegExpose.jar secret_photo.png
 ```
+<p align="center">
+<img width="1919" height="1000" alt="8 11" src="https://github.com/user-attachments/assets/502a8f36-0b3e-4c0b-9aa6-b46283ea85c5" />
+</p>
 
 ---
 
