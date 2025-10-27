@@ -1,4 +1,3 @@
-# Experiment - 6
 # Use Sleuth Kit to Analyze Digital Evidence
 
 ---
@@ -35,7 +34,7 @@ The Sleuth Kit (TSK) is a powerful open-source digital forensics toolkit that en
 fsstat -o 0 TestImage.dd
 ```
 <p align="center">
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/7932b64e-8f81-454a-a850-59a9d66ce704" />
+<img width="877" height="810" alt="Screenshot 2025-10-27 222101" src="https://github.com/user-attachments/assets/258e85af-7788-40ca-95c2-8a160b8ae03a" />
 </p>
 
 ### 3. List Files and Directories:
@@ -49,7 +48,7 @@ fls -o 0 TestImage.dd
 Shows all allocated files. Note the inode numbers for files you want to recover. For example:
 r/r 4: testfile.txt
 <p align="center">
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/7932b64e-8f81-454a-a850-59a9d66ce704" />
+<img width="983" height="532" alt="Screenshot 2025-10-27 222117" src="https://github.com/user-attachments/assets/a5ec16d5-ed7a-4d7a-a42f-aa78bb495f71" />
 </p>
 
 ### 4.Recover a File
@@ -64,7 +63,7 @@ type
 ### recovered_file.txt
 
 <p align="center">
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/7932b64e-8f81-454a-a850-59a9d66ce704" />
+<img width="1448" height="829" alt="Screenshot 2025-10-27 222232" src="https://github.com/user-attachments/assets/ab772099-57d8-420f-af0c-2810953406ea" />
 </p>
 
 ### 5. Analyze File Metadata:
@@ -73,7 +72,7 @@ Use this command to display the metadata of a file:
 istat -o 0 TestImage.dd 4
 ```
 <p align="center">
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/7932b64e-8f81-454a-a850-59a9d66ce704" />
+<img width="877" height="810" alt="Screenshot 2025-10-27 222101" src="https://github.com/user-attachments/assets/d3f3a1eb-1b83-42bf-91d1-15a82fe121d4" />
 </p>
 
 ---
