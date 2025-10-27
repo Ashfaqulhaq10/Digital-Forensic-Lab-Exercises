@@ -36,7 +36,7 @@ Download:[AFLogical Kit](https://github.com/nowsecure/android-forensics)
 
 ### Experiment 8: StegExpose
 Java-based steganography detection tool for identifying hidden data in images.  
-Download:
+Download:[StegExpose](https://github.com/b3dk7/StegExpose)
 
 ### Experiment 9: Process Explorer
 Windows utility for monitoring running processes and identifying suspicious activity.  
