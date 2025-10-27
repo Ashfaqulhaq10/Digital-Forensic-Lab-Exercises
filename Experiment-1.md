@@ -81,6 +81,7 @@ To generate a reliable forensic image of a storage device (such as a USB drive o
 
 ---
 
+
 # Result:
 A forensic image of the selected folder was successfully created, verified, and analysed using FTK Imager. The experiment demonstrated the process of evidence acquisition and integrity verification in digital forensics.
 
