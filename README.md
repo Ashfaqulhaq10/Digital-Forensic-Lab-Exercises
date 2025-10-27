@@ -42,4 +42,7 @@ Download: [StegExpose](https://github.com/b3dk7/StegExpose)
 Windows utility for monitoring running processes and identifying suspicious activity.  
 Download: [Process Explorer](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer)
 
+### Experiment 10: Ghidra
+Download:[Ghidra](https://github.com/NationalSecurityAgency/ghidra)
+
 ---
