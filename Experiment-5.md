@@ -12,15 +12,40 @@ To examine a disk image or folder with Autopsy, extract digital artifacts, and g
 
 ## Procedure
 
-1.	Launch Autopsy → Create New Case (enter case name, base directory, investigator).
-2.	Add Data Source → choose Disk Image/VM file, Local Disk, or Logical Files, then browse to the evidence.
-3.	In Ingest Modules, select: File Type Identification, Embedded File Extractor, Recent Activity (web artifacts), EXIF Parser/Metadata, Keyword Search (add terms if needed), and Hash Lookup (optional).
-4.	Start Ingest and monitor progress/messages until processing completes.
-5.	Review results in the left tree: Recent Activity, Web History/Downloads, Documents/Images/Videos, Deleted Files, Installed Programs, etc.
-6.	Use Timeline and Filters to focus on relevant activity; preview items and Export artifacts if required.
-7.	Go to Tools → Generate Report → choose HTML/PDF/CSV, select result types, and save the report to the case folder.
+1. Launch Autopsy and select Create New Case.  
+   - Enter the case name, base directory, and investigator details, then click Finish to create the case.  
 
-## Screenshots
+2. Add Data Source by choosing the appropriate option:  
+   - Disk Image or VM File  
+   - Local Disk  
+   - Logical Files  
+   Browse and select the evidence file or drive to be analyzed.  
+
+3. In the Ingest Modules section, select the modules to be applied during analysis:  
+   - File Type Identification  
+   - Embedded File Extractor  
+   - Recent Activity (web artifacts)  
+   - EXIF Parser/Metadata  
+   - Keyword Search (add keywords if required)  
+   - Hash Lookup (optional, for comparing with known hash sets)  
+
+4. Start the Ingest process and monitor the progress window or messages until the processing is complete.  
+
+5. Review the analysis results in the left-hand tree panel.  
+   - Explore categories such as Recent Activity, Web History, Downloads, Documents, Images, Videos, Deleted Files, and Installed Programs.  
+
+6. Use Timeline and Filter options to focus on specific user actions or time periods.  
+   - Preview selected files or artifacts.  
+   - Export important evidence items if required.  
+
+7. Navigate to Tools → Generate Report.  
+   - Choose the desired report format (HTML, PDF, or CSV).  
+   - Select the result types to include and specify the output location.  
+   - Save the generated report to the case folder for documentation and submission.  
+
+---
+
+## Outputs
 
 <p align="center">
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/d53592ca-6f90-41c9-b8c2-02627fc28c92" />
@@ -79,6 +104,18 @@ To examine a disk image or folder with Autopsy, extract digital artifacts, and g
 <p align="center">
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/ec08a2bb-918a-49c6-9105-7fa3aabfc2b7" />
 </p>
+
+---
+
+## Rubrics
+
+| Criteria & Marks Assigned | <div align="center">Mark Allotted</div> | <div align="center">Mark Awarded</div> |
+|:--|:--:|:--:|
+| GitHub Activity & Submission Regularity | **3** |  |
+| Application of Forensic Tools & Practical Execution | **3** |  |
+| Documentation & Reporting | **2** |  |
+| Engagement, Problem-Solving & Team Collaboration | **2** |  |
+| **Total** | **10** |  |
 
 ---
 
