@@ -89,13 +89,20 @@ adb uninstall com.viaforensics.android.aflogical
 
 ---
 
-## 📈 Result
-Logical extraction was successfully performed using **AFLogical OSE**.  
-Extracted data was saved in `.csv` format and verified using spreadsheet software.
+## Rubrics
+
+| Criteria & Marks Assigned | <div align="center">Mark Allotted</div> | <div align="center">Mark Awarded</div> |
+|:--|:--:|:--:|
+| GitHub Activity & Submission Regularity | **3** |  |
+| Application of Forensic Tools & Practical Execution | **3** |  |
+| Documentation & Reporting | **2** |  |
+| Engagement, Problem-Solving & Team Collaboration | **2** |  |
+| **Total** | **10** |  |
 
 ---
 
-## 📚 Conclusion
-This experiment demonstrates that **AFLogical OSE** provides an efficient and non-invasive method to extract important user data from Android devices, useful for forensic investigations and data recovery.
+## 📈 Result
+Logical extraction was successfully performed using **AFLogical OSE**.  
+Extracted data was saved in `.csv` format and verified using spreadsheet software.
 
 ---
