@@ -37,6 +37,7 @@ It helps investigators and administrators analyze active processes, detect suspi
    - 🟦 **Light Blue** — Processes running under the current user  
    - 🟪 **Pink** — Suspended processes
 ![9 1](https://github.com/user-attachments/assets/8c314555-99fb-41df-a7fa-31684fb03d52)
+
 ---
 
 ### **Step 3: Identify Suspicious Processes**
@@ -51,6 +52,7 @@ It helps investigators and administrators analyze active processes, detect suspi
    - Valid signature = trusted developer  
    - No signature or invalid = possibly malicious
 ![9 10](https://github.com/user-attachments/assets/4f1a4ed2-4a3a-43b0-99bf-1869f4977eed)
+
 ---
 
 ### **Step 4: Analyze Process Behavior**
@@ -61,6 +63,7 @@ It helps investigators and administrators analyze active processes, detect suspi
 4. Examine **Handles** and **DLLs** tabs for suspicious loaded files or libraries.
 ![9 4](https://github.com/user-attachments/assets/917486d8-cac0-4aca-b7c9-0d564e42cefa)
 
+---
 
 ### **Step 5: Verify Process Legitimacy**
 1. Search the process name on Google.  
@@ -69,6 +72,7 @@ It helps investigators and administrators analyze active processes, detect suspi
    - Upload the process file or search its name to verify if it’s reported as malware.
 3. Cross-check with **ProcessLibrary.com** or official vendor websites for authenticity.
 ![9 6](https://github.com/user-attachments/assets/510b1b85-2bea-43d5-bc15-e861cc676de0)
+
 ---
 
 ### **Step 6: Take Appropriate Action**
@@ -80,6 +84,7 @@ It helps investigators and administrators analyze active processes, detect suspi
 3. **After removal:**
    - Run a **Full System Scan** using Windows Defender or Malwarebytes to ensure no remnants remain.
 ![9 8](https://github.com/user-attachments/assets/c13dbe52-1c1d-40f9-8f42-59859f9c2a52)
+
 ---
 
 ### **Step 7: Example Observation**
@@ -91,8 +96,20 @@ You find `faangpath_simple_template.pdf` consuming 70% CPU.
 - **Online Check:** VirusTotal confirms it as a **known trojan**  
 - **Action Taken:** Suspended → Killed → Deleted file → Performed full antivirus scan  
 ![9 9](https://github.com/user-attachments/assets/e4a905cc-52c6-4036-987d-a4f35dd1277a)
+
 ---
 
+## Rubrics
+
+| Criteria & Marks Assigned | <div align="center">Mark Allotted</div> | <div align="center">Mark Awarded</div> |
+|:--|:--:|:--:|
+| GitHub Activity & Submission Regularity | **3** |  |
+| Application of Forensic Tools & Practical Execution | **3** |  |
+| Documentation & Reporting | **2** |  |
+| Engagement, Problem-Solving & Team Collaboration | **2** |  |
+| **Total** | **10** |  |
+
+---
 
 ## **Result**
 Using Process Explorer, suspicious processes were successfully identified by examining their **CPU usage**, **path**, **digital signature**, and **network activity**.  
