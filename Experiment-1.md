@@ -11,13 +11,28 @@ To generate a reliable forensic image of a storage device (such as a USB drive o
 
 
 ## Procedure:
-1. Launch FTK Imager on the system.  
-2. From the main menu, choose Create Disk Image to begin the acquisition.  
-3. Select the source type (e.g., physical drive, logical drive, or folder).  
-4. Specify the destination location, file name, and image format for saving the acquired image.  
-5. Allow FTK Imager to create the bit-stream copy and automatically generate hash values (MD5/SHA1) for validation.  
-6. Use the Verify Image option to confirm that the image file matches the original data.  
-7. Finally, add the created image into FTK Imager as evidence and examine its contents.
+
+1. Launch **FTK Imager** on the system.  
+2. From the **File** menu, choose **Create Disk Image** to start the acquisition process.  
+3. In the dialog box, select the **source type**:
+   - *Physical Drive* – to capture the entire disk.
+   - *Logical Drive* – to capture a specific partition.
+   - *Image File* – to duplicate an existing image.
+   - *Folder Contents* – to acquire files from a selected directory.
+4. Select the **source drive or partition** you wish to image and click **Finish**.  
+5. Choose the **destination path** where the forensic image will be saved.  
+6. Provide a **file name**, and select the **image format** (e.g., E01, RAW, SMART).  
+7. Click **Add** to configure **case information** such as:
+   - Case Number  
+   - Evidence Number  
+   - Examiner Name  
+   - Description or notes (optional)
+8. Review the **summary** of the acquisition settings and click **Start** to begin imaging.  
+9. FTK Imager will create a **bit-by-bit copy** of the source and compute **hash values (MD5/SHA1)** automatically.  
+10. Once the process completes, note the **hash values** displayed for verification purposes.  
+11. Use the **Verify Image** option to ensure the acquired image exactly matches the original source.  
+12. Add the created **image file** back into FTK Imager using **Add Evidence Item → Image File**.  
+13. Browse and analyze the contents of the image to view files, deleted data, and metadata without modifying the original evidence.  
 
 ## Screenshots:
 
