@@ -11,30 +11,30 @@ To recover lost or deleted partitions/files using the TestDisk forensic tool.
 
 ## Procedure
 
-1. **Launch TestDisk** from the command line or terminal window.  
+1. Launch TestDisk from the command line or terminal window.  
    - On Windows, open the Command Prompt and run `testdisk_win.exe`.  
    - On Linux, open a terminal and run `sudo testdisk`.
 
-2. At the startup screen, select **Create** to generate a new log file, or choose **Append** to continue an existing session log.
+2. At the startup screen, select Create to generate a new log file, or choose Append to continue an existing session log.
 
-3. From the list of available **storage devices**, select the drive that needs to be analyzed and press **Enter**.
+3. From the list of available storage devices, select the drive that needs to be analyzed and press Enter.
 
-4. Choose the correct **partition table type** (usually detected automatically by TestDisk).  
+4. Choose the correct partition table type (usually detected automatically by TestDisk).  
    - For example: Intel/PC partition, EFI GPT, or Mac.
 
-5. Select **Analyse** from the main menu to begin scanning the selected drive for lost or deleted partitions.
+5. Select Analyse from the main menu to begin scanning the selected drive for lost or deleted partitions.
 
-6. View the list of **current and deleted partitions** found during the analysis.  
+6. View the list of current and deleted partitions found during the analysis.  
    - Use the arrow keys to navigate through the detected partitions.
 
-7. To inspect the contents of a partition, highlight it and choose **List Files**.  
+7. To inspect the contents of a partition, highlight it and choose List Files.  
    - This allows you to browse and verify the recoverable files before restoring.
 
-8. Use the **Copy** option to recover selected files to a **safe destination folder** on another drive (not the same source drive).
+8. Use the Copy option to recover selected files to a safe destination folder on another drive (not the same source drive).
 
-9. If entire partitions are lost, select **Write** to restore the partition table after verifying the correct entries.
+9. If entire partitions are lost, select Write to restore the partition table after verifying the correct entries.
 
-10. Exit TestDisk safely and review the **recovered data** in the chosen destination folder.
+10. Exit TestDisk safely and review the recovered data in the chosen destination folder.
 
 ---
 
