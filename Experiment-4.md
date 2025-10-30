@@ -11,15 +11,50 @@ To use a Mail Header Analyzer (MHA) to trace an email’s origin and verify its 
 •	Sample email with full header
 
 ## Procedure
-1.	Open the email and access its full header information (available in most email clients under “Show Original” or “View Source”).
-2.	Copy the entire email header text.
-3.	Open a Mail Header Analyzer tool (e.g., MxToolbox MHA or Google Apps Toolbox).
-4.	Paste the copied email header into the analyzer’s input field.
-5.	Run the analysis to extract details such as the sender’s IP address, mail servers used, and authentication results.
-6.	Check for SPF, DKIM, and DMARC authentication results to detect possible spoofing.
-7.	Compare the originating IP address with the claimed sender domain to verify legitimacy.
 
-## Screenshots
+1. Open the email that needs to be examined.  
+   - In most email clients (like Gmail, Outlook, or Yahoo), open the email message.  
+   - Locate the option such as “Show Original,” “View Source,” or “View Message Headers” to access the full header information.  
+
+2. Copy the entire email header text.  
+   - Select all the header lines (from “Return-Path” to the start of the email body).  
+   - Copy it for further analysis.  
+
+3. Open a Mail Header Analyzer tool.  
+   - Recommended tools:  
+     - [MxToolbox Mail Header Analyzer](https://mxtoolbox.com/EmailHeaders.aspx)  
+     - [Google Admin Toolbox Messageheader](https://toolbox.googleapps.com/apps/messageheader/)  
+
+4. Paste the copied email header into the analyzer’s input field on the chosen tool’s website.  
+
+5. Run the analysis to extract technical details such as:  
+   - Sender’s IP address  
+   - Intermediate mail servers (hops)  
+   - Message delay times between servers  
+   - SPF, DKIM, and DMARC results  
+
+6. Examine the authentication results:  
+   - SPF (Sender Policy Framework): Verifies if the sender IP is authorized by the domain’s DNS.  
+   - DKIM (DomainKeys Identified Mail): Checks if the message content was digitally signed by the domain.  
+   - DMARC (Domain-based Message Authentication, Reporting & Conformance): Combines SPF and DKIM to detect spoofing or phishing attempts.  
+
+7. Trace the sender’s IP address from the “Received” fields in the header.  
+   - Identify the originating IP (usually the last “Received” entry from the bottom).  
+   - Use an IP lookup tool to check its geolocation and ownership.  
+
+8. Compare the originating IP with the claimed sender domain.  
+   - If the IP location or domain does not match the sender’s organization, the email may be spoofed or forged.  
+
+9. Document your findings by noting:  
+   - Sender domain and IP  
+   - Authentication results (SPF, DKIM, DMARC)  
+   - Any inconsistencies or suspicious relay paths  
+
+10. Save the analyzed report or export results from the analyzer tool for your forensic documentation.  
+
+---
+
+## Outputs
 
 <p align="center">
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/8f40ce5c-254a-4e7f-8e7a-9a5ff6355240" />
@@ -54,6 +89,18 @@ To use a Mail Header Analyzer (MHA) to trace an email’s origin and verify its 
 <p align="center">
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/e7caabbb-9bec-4ecd-a710-04f9721955c6" />
 </p>
+
+---
+
+## Rubrics
+
+| Criteria & Marks Assigned | <div align="center">Mark Allotted</div> | <div align="center">Mark Awarded</div> |
+|:--|:--:|:--:|
+| GitHub Activity & Submission Regularity | **3** |  |
+| Application of Forensic Tools & Practical Execution | **3** |  |
+| Documentation & Reporting | **2** |  |
+| Engagement, Problem-Solving & Team Collaboration | **2** |  |
+| **Total** | **10** |  |
 
 ---
 
