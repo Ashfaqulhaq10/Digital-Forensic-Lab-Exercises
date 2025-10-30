@@ -104,15 +104,17 @@ To generate a reliable forensic image of a storage device (such as a USB drive o
 
 
 
-# Rubrics
+## Rubrics
 
-| Criteria | Mark Allotted | Mark Awarded |
-|---|---:|---:|
-| 1. GitHub Activity & Submission Regularity | 3 | |
-| 2. Application of Forensic Tools & Practical Execution | 3 | |
-| 3. Documentation & Reporting | 2 | |
-| 4. Engagement, Problem-Solving & Team Collaboration | 2 | |
-| **Total** | **10** | |
+| Criteria & Marks Assigned | <div align="center">Mark Allotted</div> | <div align="center">Mark Awarded</div> |
+|:--|:--:|:--:|
+| GitHub Activity & Submission Regularity | **3** |  |
+| Application of Forensic Tools & Practical Execution | **3** |  |
+| Documentation & Reporting | **2** |  |
+| Engagement, Problem-Solving & Team Collaboration | **2** |  |
+| **Total** | **10** |  |
+
+
 
 ---
 
