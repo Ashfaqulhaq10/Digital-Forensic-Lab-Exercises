@@ -34,8 +34,9 @@ To generate a reliable forensic image of a storage device (such as a USB drive o
 12. Add the created **image file** back into FTK Imager using **Add Evidence Item → Image File**.  
 13. Browse and analyze the contents of the image to view files, deleted data, and metadata without modifying the original evidence.  
 
+---
 
-## Screenshots:
+## Outputs:
 
 <p align="center">
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/10f722a7-c519-484b-8922-f41251e4b347" />
