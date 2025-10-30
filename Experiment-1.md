@@ -86,6 +86,17 @@ To generate a reliable forensic image of a storage device (such as a USB drive o
 
 # Result:
 A forensic image of the selected folder was successfully created, verified, and analysed using FTK Imager. The experiment demonstrated the process of evidence acquisition and integrity verification in digital forensics.
+# Rubrics
+
+| Criteria | Mark Allotted | Mark Awarded |
+|---|---:|---:|
+| 1. GitHub Activity & Submission Regularity | 3 | |
+| 2. Application of Forensic Tools & Practical Execution | 3 | |
+| 3. Documentation & Reporting | 2 | |
+| 4. Engagement, Problem-Solving & Team Collaboration | 2 | |
+| **Total** | **10** | |
+
+<!-- Source: DF - Bonafide.docx  -->
 
 
 
