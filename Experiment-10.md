@@ -1,9 +1,9 @@
-# Aim:
+## Aim:
 To Use Ghidra to Disassemble and Analyze the Malware Code
 
 ---
 
-## Project Objectives
+## Project Objectives:
 
 * To provide a hands-on guide to disassembling and analyzing malware with **Ghidra**.
 * To enable readers to recognize common malware functionalities, such as **persistence mechanisms**, **anti-analysis techniques**, and **network communications**.
@@ -11,7 +11,7 @@ To Use Ghidra to Disassemble and Analyze the Malware Code
 
 ---
 
-## Prerequisites
+## Prerequisites:
 
 * **Ghidra:** Installed and configured (requires Java Development Kit - JDK).
 * **Virtual Machine (VM):** A secure, isolated, and virtualized environment (e.g., VMWare, VirtualBox) to safely handle binaries.
@@ -111,7 +111,7 @@ Scripts using Ghidra's API to automate repetitive analysis tasks:
 
 ---
 
-### 5. Report Template
+### 5. Report Template:
 
 A template to structure and document the findings of the Ghidra analysis:
 
@@ -119,6 +119,18 @@ A template to structure and document the findings of the Ghidra analysis:
 2.  **Function Analysis:** Detailed summary of key functions, their purpose, and forensic findings.
 3.  **Behavioral Indicators:** Summary of observed behaviors (e.g., persistence, communication protocols, anti-analysis checks).
 4.  **Recommendations:** Suggestions for containment, eradication, or further analysis (e.g., dynamic analysis).
+
+---
+
+## Rubrics:
+
+| Criteria & Marks Assigned | <div align="center">Mark Allotted</div> | <div align="center">Mark Awarded</div> |
+|:--|:--:|:--:|
+| GitHub Activity & Submission Regularity | **3** |  |
+| Application of Forensic Tools & Practical Execution | **3** |  |
+| Documentation & Reporting | **2** |  |
+| Engagement, Problem-Solving & Team Collaboration | **2** |  |
+| **Total** | **10** |  |
 
 ---
 
