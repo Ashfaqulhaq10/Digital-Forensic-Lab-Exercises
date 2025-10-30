@@ -95,12 +95,19 @@ java -jar StegExpose.jar --help
 
 ---
 
-### 📈 Result
-StegExpose successfully flagged images likely containing hidden data. Images with low scores were considered clean, while higher scores indicated probable steganography.
+## Rubrics
+
+| Criteria & Marks Assigned | <div align="center">Mark Allotted</div> | <div align="center">Mark Awarded</div> |
+|:--|:--:|:--:|
+| GitHub Activity & Submission Regularity | **3** |  |
+| Application of Forensic Tools & Practical Execution | **3** |  |
+| Documentation & Reporting | **2** |  |
+| Engagement, Problem-Solving & Team Collaboration | **2** |  |
+| **Total** | **10** |  |
 
 ---
 
-### 📚 Conclusion
-This experiment demonstrates how **StegExpose** can quickly and accurately detect steganography in images, making it a valuable tool for forensic investigations and security analysis.
+### 📈 Result
+StegExpose successfully flagged images likely containing hidden data. Images with low scores were considered clean, while higher scores indicated probable steganography.
 
 ---
