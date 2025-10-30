@@ -83,7 +83,7 @@ To recover lost or deleted partitions/files using the TestDisk forensic tool.
 
 ## Rubrics
 
-| Criteria | <div align="center">Mark Allotted</div> | <div align="center">Mark Awarded</div> |
+| Criteria & Marks Assigned | <div align="center">Mark Allotted</div> | <div align="center">Mark Awarded</div> |
 |:--|:--:|:--:|
 | GitHub Activity & Submission Regularity | **3** |  |
 | Application of Forensic Tools & Practical Execution | **3** |  |
