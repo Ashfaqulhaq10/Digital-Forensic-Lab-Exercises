@@ -41,9 +41,9 @@ To capture and analyse network packets using Wireshark and extract login credent
 - Use **Statistics → HTTP** or **Endpoints/Conversations** for high-level HTTP activity summaries.  
 - Always save a copy of the original capture (PCAP) before performing any analysis that modifies files.
 
+---
 
-
-## Screenshots
+## Outputs
 
 <p align="center">
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/92b19333-2c56-4fa9-8395-9eb789ba4c5f" />
