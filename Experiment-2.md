@@ -36,8 +36,9 @@ To recover lost or deleted partitions/files using the TestDisk forensic tool.
 
 10. Exit TestDisk safely and review the **recovered data** in the chosen destination folder.
 
+---
 
-## Screenshots
+## Outputs
 
 <p align="center">
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/7932b64e-8f81-454a-a850-59a9d66ce704" />
