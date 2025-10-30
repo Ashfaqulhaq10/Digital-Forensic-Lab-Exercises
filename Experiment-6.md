@@ -74,6 +74,18 @@ istat -o 0 TestImage.dd 4
 
 ---
 
+## Rubrics
+
+| Criteria & Marks Assigned | <div align="center">Mark Allotted</div> | <div align="center">Mark Awarded</div> |
+|:--|:--:|:--:|
+| GitHub Activity & Submission Regularity | **3** |  |
+| Application of Forensic Tools & Practical Execution | **3** |  |
+| Documentation & Reporting | **2** |  |
+| Engagement, Problem-Solving & Team Collaboration | **2** |  |
+| **Total** | **10** |  |
+
+---
+
 ## Results
 
 - Successfully identified partition structure.
@@ -83,7 +95,3 @@ istat -o 0 TestImage.dd 4
 - Created a timeline of file system activities.
 
 ---
-
-## Conclusion
-
-The Sleuth Kit is an essential tool in digital forensics investigations, providing detailed insights into file systems and enabling investigators to recover and analyze digital evidence effectively. This experiment provided practical experience using TSK commands such as `mmls`, `fsstat`, `fls`, `icat`, `istat`, and optional timeline/deleted file analysis, which are crucial in real-world forensic investigations.
