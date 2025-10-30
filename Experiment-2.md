@@ -10,11 +10,32 @@ To recover lost or deleted partitions/files using the TestDisk forensic tool.
 •	Windows/Linux Operating System
 
 ## Procedure
-1.	Launch TestDisk from the command line.
-2.	Select the storage device to be analysed.
-3.	Choose Analyse to scan for lost or deleted partitions.
-4.	Navigate through the detected partitions and list the files.
-5.	Recover selected files or partitions to a safe location.
+
+1. **Launch TestDisk** from the command line or terminal window.  
+   - On Windows, open the Command Prompt and run `testdisk_win.exe`.  
+   - On Linux, open a terminal and run `sudo testdisk`.
+
+2. At the startup screen, select **Create** to generate a new log file, or choose **Append** to continue an existing session log.
+
+3. From the list of available **storage devices**, select the drive that needs to be analyzed and press **Enter**.
+
+4. Choose the correct **partition table type** (usually detected automatically by TestDisk).  
+   - For example: Intel/PC partition, EFI GPT, or Mac.
+
+5. Select **Analyse** from the main menu to begin scanning the selected drive for lost or deleted partitions.
+
+6. View the list of **current and deleted partitions** found during the analysis.  
+   - Use the arrow keys to navigate through the detected partitions.
+
+7. To inspect the contents of a partition, highlight it and choose **List Files**.  
+   - This allows you to browse and verify the recoverable files before restoring.
+
+8. Use the **Copy** option to recover selected files to a **safe destination folder** on another drive (not the same source drive).
+
+9. If entire partitions are lost, select **Write** to restore the partition table after verifying the correct entries.
+
+10. Exit TestDisk safely and review the **recovered data** in the chosen destination folder.
+
 
 ## Screenshots
 
@@ -57,6 +78,19 @@ To recover lost or deleted partitions/files using the TestDisk forensic tool.
 <p align="center">
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/461ef53b-d38a-4472-92ee-8d7daf880b7f" />
 </p>
+
+---
+
+## Rubrics
+
+| Criteria | <div align="center">Mark Allotted</div> | <div align="center">Mark Awarded</div> |
+|:--|:--:|:--:|
+| GitHub Activity & Submission Regularity | **3** |  |
+| Application of Forensic Tools & Practical Execution | **3** |  |
+| Documentation & Reporting | **2** |  |
+| Engagement, Problem-Solving & Team Collaboration | **2** |  |
+| **Total** | **10** |  |
+
 
 ---
 
